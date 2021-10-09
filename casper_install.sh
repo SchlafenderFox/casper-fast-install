@@ -46,7 +46,7 @@ cd ~
 git clone git://github.com/CasperLabs/casper-node.git
 cd casper-node/
 
-git checkout release-1.2
+git checkout release-1.3.2
 
 make setup-rs
 make build-client-contracts -j
