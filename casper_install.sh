@@ -5,6 +5,7 @@ CASPER_VERSION=1_0_0
 CASPER_NETWORK=casper-test
 
 sudo apt-get update
+sudo apt install git
 
 sudo apt install dnsutils -y
 
