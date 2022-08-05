@@ -108,6 +108,9 @@ sudo -u casper /etc/casper/config_from_example.sh 1_4_5
 sudo -u casper /etc/casper/pull_casper_node_version.sh casper-test.conf 1_4_6
 sudo -u casper /etc/casper/config_from_example.sh 1_4_6
 
+sudo -u casper /etc/casper/pull_casper_node_version.sh casper-test.conf 1_4_7
+sudo -u casper /etc/casper/config_from_example.sh 1_4_7
+
 sudo logrotate -f /etc/logrotate.d/casper-node
 sudo systemctl start casper-node-launcher; sleep 2
 systemctl status casper-node-launcher
